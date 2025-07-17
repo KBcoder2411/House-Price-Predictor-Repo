@@ -1,10 +1,10 @@
-# 🏡 House Price Predictor
+# House Price Predictor
 
 A machine learning-based application that predicts housing prices in Bengaluru based on property details like location, square footage, number of bathrooms, and BHK. Built using Python and trained with Ridge Regression on a cleaned real estate dataset.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 House-Price-Predictor-Repo/
 │
 ├── main.py # Main application script (Streamlit UI)
@@ -16,7 +16,7 @@ House-Price-Predictor-Repo/
 
 ---
 
-## 🚀 Features
+## Features
 
 - Predicts house prices using key features (BHK, bath, sqft, location)
 - Cleaned and preprocessed dataset for better accuracy
@@ -26,7 +26,7 @@ House-Price-Predictor-Repo/
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Language**: Python 3.x  
 - **Libraries**: `pandas`, `numpy`, `scikit-learn`, `streamlit`  
@@ -35,7 +35,7 @@ House-Price-Predictor-Repo/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Cleaned Bengaluru housing dataset
 - Key columns used:
@@ -44,13 +44,7 @@ House-Price-Predictor-Repo/
   - `bhk`
   - `location` (filtered and encoded)
 
----
 
-## 💻 How to Run
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/House-Price-Predictor.git
-   cd House-Price-Predictor
 
 
