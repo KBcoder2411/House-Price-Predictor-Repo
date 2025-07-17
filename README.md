@@ -1,73 +1,56 @@
-A machine learning web application that predicts housing prices in Bengaluru using location, size, number of bathrooms, and other key features. The model is trained on cleaned real estate data and utilizes Ridge Regression to provide accurate, real-time predictions.
+# 🏡 House Price Predictor
 
+A machine learning-based application that predicts housing prices in Bengaluru based on property details like location, square footage, number of bathrooms, and BHK. Built using Python and trained with Ridge Regression on a cleaned real estate dataset.
 
+---
+
+## 📁 Project Structure
 House-Price-Predictor-Repo/
-├── main.py                       # Main application script (Streamlit or CLI-based)
-├── RidgeModel.pkl                # Trained Ridge Regression model
-├── cleaned_bangaluru_data.csv    # Preprocessed dataset
-├── requirements.txt              # Required Python packages
-├── .idea/                        # Project config files (PyCharm)
+│
+├── main.py # Main application script (Streamlit UI)
+├── RidgeModel.pkl # Trained Ridge Regression model
+├── cleaned_bangaluru_data.csv # Cleaned dataset for training
+├── requirements.txt # Python dependencies
+└── .idea/ # Project config files (IDE-related)
 
-Features
-Predicts house prices based on area, location, BHK, and bath count
 
-Cleaned and preprocessed dataset for accurate modeling
+---
 
-Ridge Regression model trained and saved using scikit-learn
+## 🚀 Features
 
-Simple UI to accept user inputs (via Streamlit or CLI)
+- Predicts house prices using key features (BHK, bath, sqft, location)
+- Cleaned and preprocessed dataset for better accuracy
+- Trained Ridge Regression model with good generalization
+- User-friendly interface using Streamlit
+- Real-time predictions with quick response time
 
-Real-time predictions with consistent performance
+---
 
-🧰 Tech Stack
-Language: Python 3
+## 🧰 Tech Stack
 
-Libraries: pandas, numpy, scikit-learn, streamlit
+- **Language**: Python 3.x  
+- **Libraries**: `pandas`, `numpy`, `scikit-learn`, `streamlit`  
+- **Model**: Ridge Regression  
+- **Deployment**: Local (can be deployed to Streamlit Cloud/Render)
 
-Model: Ridge Regression
+---
 
-Deployment: Local Streamlit App or future cloud hosting
+## 📊 Dataset
 
-📈 Dataset
-Cleaned dataset of Bengaluru housing data
+- Cleaned Bengaluru housing dataset
+- Key columns used:
+  - `total_sqft`
+  - `bath`
+  - `bhk`
+  - `location` (filtered and encoded)
 
-Key Features:
+---
 
-Total square feet
+## 💻 How to Run
 
-Number of bathrooms
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/House-Price-Predictor.git
+   cd House-Price-Predictor
 
-Number of bedrooms (BHK)
 
-Location (filtered and encoded)
-
-🛠 How to Run
-Install Dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Application
-
-bash
-Copy
-Edit
-streamlit run main.py
-Enter Inputs
-
-Provide house details (area, BHK, bath, location) to get predicted price.
-
-📊 Model Info
-Ridge Regression used to prevent overfitting
-
-Model serialized as RidgeModel.pkl
-
-Performance validated with R² Score and Cross Validation
-
-📌 Future Enhancements
-Add advanced models (e.g., XGBoost, Lasso)
-
-Add geolocation and map-based UI
-
-Host on cloud (Streamlit Cloud, Render)
