@@ -4,14 +4,14 @@ A machine learning-based application that predicts housing prices in Bengaluru b
 
 ---
 
-## Project Structure
-House-Price-Predictor-Repo/
-│
-├── main.py # Main application script (Streamlit UI)
-├── RidgeModel.pkl # Trained Ridge Regression model
-├── cleaned_bangaluru_data.csv # Cleaned dataset for training
-├── requirements.txt # Python dependencies
-└── .idea/ # Project config files (IDE-related)
+Project_Structure:
+  House-Price-Predictor-Repo/:
+    - main.py: "Main application script (Streamlit UI)"
+    - RidgeModel.pkl: "Trained Ridge Regression model"
+    - cleaned_bangaluru_data.csv: "Cleaned dataset for training"
+    - requirements.txt: "Python dependencies"
+    - .idea/: "Project config files (IDE-related)"
+
 
 
 ---
